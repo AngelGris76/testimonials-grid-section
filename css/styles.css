@@ -116,7 +116,7 @@ body
     {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,auto);
-        grid-auto-rows: auto;
+        margin: auto;
         max-width: 874px;
     }
 
@@ -131,7 +131,6 @@ body
     .container
     {
         grid-auto-flow: dense;
-        grid-template-rows: repeat(2,33vh);
         grid-template-columns: repeat(4,1fr);
         max-width: 1100px;
     }
